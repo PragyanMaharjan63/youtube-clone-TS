@@ -33,7 +33,7 @@ export default function LeftSubscriptions() {
   ];
   return (
     <>
-      <div className="text-lg">
+      <div className="text-lg my-4">
         <div className="my-2 mx-5 text-xl font-medium">Subscriptions</div>
         {subsctiptions.map((subscription) => (
           <div className="flex text-lg p-2 mx-3 font-thin">
@@ -41,7 +41,7 @@ export default function LeftSubscriptions() {
             <div className="mx-3">{subscription.name}</div>
           </div>
         ))}
-        <div>Show More</div>
+        <div className="m-4">Show More</div>
       </div>
     </>
   );

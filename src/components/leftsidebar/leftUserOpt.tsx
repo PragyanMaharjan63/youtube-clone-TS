@@ -33,7 +33,7 @@ export default function LeftUserOpt() {
   ];
   return (
     <>
-      <div className="text-lg">
+      <div className="text-lg my-4">
         <div className="my-2 mx-5 text-xl font-medium">You</div>
         <div className="flex flex-col">
           {options.map((item) => (

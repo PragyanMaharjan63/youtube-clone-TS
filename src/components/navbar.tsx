@@ -3,7 +3,7 @@ import { Bell, Menu, Mic, Plus, Search, UserRound } from "lucide-react";
 export default function Navbar() {
   return (
     <>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between bg-black">
         <div className="flex">
           <Menu className="mx-5 my-4" />
           <div className="my-[18px]">
